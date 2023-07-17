@@ -1,12 +1,12 @@
 import React from "react";
-import Base from "../Base/Base";
+import Base from "../../Base/Base";
 import Error from "./Dash.gif";
 const Dashboard = () => {
   return (
     <Base
-      title={"Welcome To B45WD "}
+      title={"Welcome To Library Management "}
       description={
-        "In this website you can see the Students and Mentor details..."
+        "In this website you can see the list of Books details..."
       }
     >
       <img style={{ width: "80%" }} src={Error} alt="Loading..." />
